@@ -9,7 +9,7 @@ class Code extends Model {
 	 *
 	 * @var string
 	 */
-	protected $table = 'codes';
+	protected $table = 'ka_codes';
 
 	/**
 	 * The attributes excluded from the model's JSON form.

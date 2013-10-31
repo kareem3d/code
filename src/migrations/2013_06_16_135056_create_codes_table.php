@@ -12,7 +12,7 @@ class CreateCodesTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('codes', function(Blueprint $table)
+		Schema::create('ka_codes', function(Blueprint $table)
 		{
 			$table->increments('id');
 
@@ -29,7 +29,7 @@ class CreateCodesTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('codes');
+		Schema::drop('ka_codes');
 	}
 
 }
